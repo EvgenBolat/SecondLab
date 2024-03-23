@@ -102,7 +102,7 @@ public class CardGame
         RecalculateLayout(center.LayoutId);
     }
 
-    public void MoveToTrash(CardInstance card)
+    public void MoveToBeated(CardInstance card)
     {
         int currentCardLayout = card.LayoutId;
         card.LayoutId = beated.LayoutId;

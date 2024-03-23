@@ -49,7 +49,7 @@ namespace Card {
             else if (_cardInstance.typeOfLayout == 1)
             {
                 _cardInstance.typeOfLayout = 3;
-                CardGame.Instance.MoveToTrash(_cardInstance);
+                CardGame.Instance.MoveToBeated(_cardInstance);
             }
         }
 	}
